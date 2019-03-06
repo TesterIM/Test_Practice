@@ -1,0 +1,109 @@
+[
+  {
+    "userObjectId": 1000582620,
+    "esperGroupRuleId": 0,
+    "alertFrequency": 1,
+    "alertFormatTypeId": 0,
+    "keyUserAlertNotificationTypeId": 1,
+    "esperMatchedDateTimeUTC": "2018-12-31T05:03:51.67Z",
+    "alerts": [
+      {
+        "applicationTypeId": 1,
+        "messageTypeId": 1,
+        "esperRuleId": -21460728204055264,
+        "esperGroupRuleId": 0,
+        "alertContentTypeId": 6,
+        "domainUrl": "platform.midev.spglobal.com",
+        "id": -2146072820,
+        "name": "Test Alert",
+        "emailAddress": "idris.merchant@spglobal.com",
+        "recipients": [
+          "idris.merchant@spglobal.com"
+        ],
+        "alertFrequency": 1,
+        "keyUserAlertNotificationTypeIds": [
+          1
+        ],
+        "includeAttachment": false,
+        "timezone": null,
+        "userObjectId": 1000582620,
+        "userCompanyId": 0,
+        "userId": 0,
+        "userGroupIds": [],
+        "alertFormatTypeId": 1,
+        "alertSubject": "",
+        "activeFlag": true,
+        "digestDays": [],
+        "digestHours": [],
+        "subjectPartTypeId": null,
+        "companyId": 4105050,
+        "dataType": "RT",
+        "increaseCalculationName": "Price",
+        "increaseCalculationLowerBound": 0,
+        "decreaseCalculationName": "Price",
+        "decreaseCalculationLowerBound": 1,
+        "entityTypeId": 0,
+        "unitTypeId": 2,
+        "increase": 0,
+        "decrease": 0
+      }
+    ],
+    "events": [
+      {
+        "contentPublishedDateTimeUTC": "2018-12-31T05:03:51.6740921Z",
+        "pricingMessageId": -1245742453,
+        "dataProvider": {
+          "exchangeId": 46,
+          "exchangeName": "",
+          "dataType": "RT"
+        },
+        "tradeDateTime": "2018-12-31T10:14:00",
+        "publishedDateTimeUTC": "2018-12-31T00:03:51.6740921-05:00",
+        "company": {
+          "id": 4105050,
+          "name": "American Express",
+          "ticker": "NYSE:AXP",
+          "primary": 1,
+          "exchange": "",
+          "parentCompanyId": -1,
+          "isPublic": false
+        },
+        "tradingItemId": 0,
+        "tranType": null,
+        "priceOpen": 103,
+        "priceHigh": 150.75,
+        "priceLow": 102.3,
+        "priceClose": 118.1,
+        "previousClosePrice": 102.95,
+        "lastSalePrice": 113.22,
+        "netChangePrice": -1.22,
+        "netChangePercent": 2.17936117936118,
+        "yearHigh": 180.75,
+        "yearLow": 83.3,
+        "volume": 12347576,
+        "marketCap": 179439.62308855,
+        "dilutMktCapOut": 0,
+        "dilutMktCapExer": 0,
+        "adjustmentFactor": 0,
+        "latestMarketCap": 0,
+        "divAdjFactor": 0,
+        "currencyId": 0,
+        "currencyCode": "$",
+        "adjustmentPrice": 0,
+        "adjustmentPriceDate": "1/1/1900 12:00:00 AM",
+        "derived": {
+          "PercentChange_Decrease": 1.17936117936118,
+          "PercentChange_Increase": 0,
+          "Price": 104.1,
+          "NetChange_Increase": 0,
+          "NetChange_Decrease": -2.5
+        }
+      }
+    ],
+    "match": {
+      "objectId": [
+        4105050
+      ]
+    }
+  }
+]
